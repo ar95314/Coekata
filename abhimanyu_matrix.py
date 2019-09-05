@@ -65,4 +65,4 @@ def spiralPrint(m, n, a) :
 	#[13, 14, 15, 16, 17, 18] ] 
 spiralPrint(R, C, a) 
 
-# This code is contributed by Nikita Tiwari. 
+# This code is contributed by Amit Rathore. 
