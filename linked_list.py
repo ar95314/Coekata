@@ -43,5 +43,5 @@ if(choice2!=3):
  dict1[choice1][1][choice2][1](linkedlist,data)
 else:
  pos=int(input("Enter position"))
- dict1[choice1][1][choice2][1](data,position)
+ dict1[choice1][1][choice2][1](linkedlist,data,position)
 print(linkedlist)
