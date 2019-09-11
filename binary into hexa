@@ -1,0 +1,4 @@
+binary=input()
+dec = int(binary, 2)
+hex=hex(dec)
+print(hex.lstrip("0x"))
