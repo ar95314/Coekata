@@ -1,0 +1,10 @@
+n=input()
+num=0
+rev=0
+for i in range(len(n)):
+    if(n[i]>="0" and n[i]<="9"):
+        num = num * 10 + int(int(n[i]) - 0)
+    else:
+        rev =max(rev,num)
+        num=0
+print(rev)        
