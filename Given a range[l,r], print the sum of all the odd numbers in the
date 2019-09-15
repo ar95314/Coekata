@@ -1,0 +1,5 @@
+s,d = map(int, input().split())
+oddtotal = 0
+for num in range(s, d+1,2):
+   oddtotal = oddtotal + num
+print(oddtotal)
