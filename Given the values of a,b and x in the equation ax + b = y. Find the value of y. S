@@ -1,0 +1,6 @@
+inp=list(map(int, input().split()))
+a=int(inp[0])
+b=int(inp[1])
+x=int(inp[2])
+y=a*x + b 
+print(y)
